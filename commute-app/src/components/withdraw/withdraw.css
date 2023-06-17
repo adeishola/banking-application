@@ -1,0 +1,28 @@
+.withdraw {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30rem;
+    background-color: gold;
+    padding: 0rem 2rem 4rem 3rem;
+    margin-top: 5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.btn{
+    color: white;
+    background-color: teal;
+}

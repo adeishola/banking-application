@@ -1,0 +1,27 @@
+.dash{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 20rem;
+    margin-top: 16px;
+}
+
+.dash > div{
+    height: 200px;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gainsboro;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.dash > div:hover{
+    background-color: teal;
+    color: white;
+}
